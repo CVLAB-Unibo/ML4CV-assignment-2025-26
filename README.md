@@ -82,7 +82,7 @@ Make sure to submit the assignment **before** you write to prof. Salti to schedu
 My evaluation of your work will be based on:
 
 1. **Qualitative results**, i.e. ranking of the first few detected and identified people with respect to the query image and person (from the test set). An example of qualitative is the <a href="#prw_datapoints">image above</a>.
-2. **Quantitative results** (a.k.a. metrics), i.e. *mAP* and *top-1 ranking*. These metrics should guide you in the design and tuning of your model. Look into papers showing experiments on PRW (e.g. [[2](https://arxiv.org/abs/2210.12903), [3](https://arxiv.org/abs/2203.09642), [4](https://arxiv.org/abs/2204.03340), [5](https://arxiv.org/abs/2103.11617)]) to know the range of values you should strive for. **N.B.:** a detected box is considered a true positive if it has an <u>IoU > 0.5</u> with the ground truth box and the ID matches.
+2. **Quantitative results** (a.k.a. metrics), i.e. *mAP* and *top-1 ranking*. These metrics should guide you in the design and tuning of your model. Look into papers showing experiments on PRW (e.g. [[2](https://arxiv.org/abs/2210.12903), [3](https://arxiv.org/abs/2203.09642), [4](https://arxiv.org/abs/2204.03340), [5](https://arxiv.org/abs/2103.11617)]) to know the range of values you should strive for. **N.B.:** a detected box is considered a true positive if it has an **IoU > 0.5** with the ground truth box and the ID matches.
 3. **Experimental procedure**. Do not just show me the results of your final model; instead, perform ablation studies that (empirically) prove how your *main* choices positively affect the model performance. Any result you show must be critically discussed and/or interpreted and have an actual impact on your investigation.
 4. **Clarity of exposition and code readability**. `main.ipynb` must be a combination of textual and code cells whose content is intertwined: do not write text cells referencing code that I cannot see anywhere (not even in external scripts) nor write non-trivial code cells with no textual explanation preceding them. External scripts, if present, should be well-structured (classes, functions, etc.), well-written (mnemonic variable names, no random commented lines, etc.) and well-documented. Plots and tables are always welcomed.
 
@@ -107,4 +107,5 @@ This section will be dynamically updated in the following weeks/months as I rece
 
 <p align="center">
   <img src="assets/empty.jpeg" />
+
 </p>
