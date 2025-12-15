@@ -99,7 +99,7 @@ What follows is a (non-exhaustive) list of papers you might want to take a look 
 [[1](https://arxiv.org/abs/1604.02531)] Zheng et al. "Person Re-identification in the Wild". CVPR 2017.\
 [[2](https://arxiv.org/abs/2210.12903)] Jaffe et al. "Gallery Filter Network for Person Search". WACV 2023.\
 [[3](https://arxiv.org/abs/2203.09642)] Yu et al. "Cascade Transformers for End-to-End Person Search". CVPR 2022.\
-[[4](https://arxiv.org/abs/2204.03340)] Cao et al. "PSTR: End-to-End One-Step Person Search With Transformers". CVPR 2022.\
+[[4](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Instance_Guided_Proposal_Network_for_Person_Search_CVPR_2020_paper.pdf)] Dong et al. "Instance Guided Proposal Network for Person Search". CVPR 2020.\
 [[5](https://arxiv.org/abs/2103.11617)] Yan et al. "Anchor-Free Person Search". CVPR 2021.
 
 ## FAQ
@@ -109,4 +109,5 @@ This section will be dynamically updated in the following weeks/months as I rece
   <img src="assets/empty.jpeg" />
 
 </p>
+
 
