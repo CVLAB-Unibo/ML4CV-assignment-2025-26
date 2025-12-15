@@ -13,6 +13,18 @@ This assumption rarely holds in real-world applications, where the system is not
 This task, which aims to jointly solve **Pedestrian Detection** and **Person Re-Identification**, is known in the literature as **Person Search**. Unlike standard Re-ID, where the query is matched against a gallery of cropped bodies, Person Search requires matching a query person against a gallery of raw, uncropped scene images, making it a more challenging and realistic "in the wild" problem.
 
 
+## Goal
+Your goal is to implement a model that is able to tackle the Person Search task, which can be seen as the combination of pedestrian detection and person re-identification: given a query image with a single bounding box enclosing a person, detect and match that same person in the other images of the dataset, based on body shape and clothes.
+
+Here are a couple of examples of query image and other images with the same person detected and matched.
+
+<p id="prw_datapoints" align="center">
+  <img src="assets/prw.png" />
+</p>
+
+Test set images and identities should remain **unseen** during training and only be used at test time.
+
+
 ## Dataset
 The dataset you are going to work with is called "Person Re-identification in the Wild" (PRW) [[1](https://arxiv.org/abs/1604.02531)], which was proposed for the task of Person Search.
 The dataset contains 11816 images annotated with 43110 pedestrian bounding boxes, among which 34304 are linked to an identity (`ID` randing from 1 to 932) while the rest are not (`ID = -2`, corresponding to "ambiguous person"). 
@@ -31,18 +43,6 @@ A summary of the dataset statistics is provided below.
 </p>
 
 The dataset is available at [this link](https://www.kaggle.com/datasets/edoardomerli/prw-person-re-identification-in-the-wild).
-
-
-## Goal
-Your goal is to implement a model that is able to tackle the Person Search task, which can be seen as the combination of pedestrian detection and person re-identification: given a query image with a single bounding box enclosing a person, detect and match that same person in the other images of the dataset, based on body shape and clothes.
-
-Here are a couple of examples of query image and other images with the same person detected and matched.
-
-<p id="prw_datapoints" align="center">
-  <img src="assets/prw.png" />
-</p>
-
-Test set images and identities should remain **unseen** during training and only be used at test time.
 
 
 ## Rules
@@ -109,3 +109,4 @@ This section will be dynamically updated in the following weeks/months as I rece
   <img src="assets/empty.jpeg" />
 
 </p>
+
