@@ -4,6 +4,8 @@ edoardo.merli2@unibo.it
 
 ---
 
+🚨You can submit this assignment until **January 31st 2027**. After this date, you must complete the 2026–2027 A.Y. assignment instead.🚨
+
 ## Introduction
 
 Over the last few years, the field of Person Re-Identification (Re-ID) has witnessed significant progress, achieving impressive performance on standard benchmarks. However, traditional Re-ID methods typically operate on *pre-cropped* images, assuming that pedestrians have already been perfectly localized by a separate detector. 
@@ -112,6 +114,7 @@ This section will be dynamically updated in the following weeks/months as I rece
   <img src="assets/empty.jpeg" />
 
 </p>
+
 
 
 
