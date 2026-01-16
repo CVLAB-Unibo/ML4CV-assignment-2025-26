@@ -53,7 +53,7 @@ From an implementation standpoint, you can:
 
 * Use off-the-shelf pre-implemented PyTorch models.
 * Use pre-trained weights.
-* Use portions of existing code found in public repositories. If so, cite the source you took the code from.
+* Use **portions** of existing code found in public repositories. If so, cite the source you took the code from.
 * Use any existing library for computing metrics, displaying results or providing any other functionality you need.
 
 Teams are not allowed: the assignment must be done **individually**.
@@ -110,10 +110,36 @@ What follows is a (non-exhaustive) list of papers you might want to take a look 
 ## FAQ
 This section will be dynamically updated in the following weeks/months as I receive questions about the assignment.
 
-<p align="center">
+<!-- TEMPLATE
+<details>
+<summary>Q: </summary>
+  
+  A: 
+</details> 
+-->
+
+<details>
+<summary>Q: Can I clone a Github repository and work with that code?</summary>
+  
+  A: Your code should start from scratch and can integrate **portions** of existing repositories, for example the model architecture code, but cloning an entire Github repository would heavily penalize your assignment grade (and not make you learn as much).
+</details>
+
+<details>
+<summary>Q: Should I build multiple models for a comparison in the end?</summary>
+  
+  A: You are expected to experiment with variations (not many, 1 or 2 are enough) of your model and compare how they change the model performance as part of point 3 of the evaluation score breakdown "Experimental procedure".
+</details>
+
+<!-- <p align="center">
   <img src="assets/empty.jpeg" />
 
-</p>
+</p> -->
+
+<!-- 
+Note per il prossimo anno:
+1. indica chiaramente che vuoi almeno 3 qualitativi.
+2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
+-->
 
 
 
