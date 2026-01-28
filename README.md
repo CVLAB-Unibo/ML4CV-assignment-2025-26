@@ -110,13 +110,12 @@ What follows is a (non-exhaustive) list of papers you might want to take a look 
 ## FAQ
 This section will be dynamically updated in the following weeks/months as I receive questions about the assignment.
 
-<!-- TEMPLATE
-<details>
+<!-- TEMPLATE -->
+<!-- <details>
 <summary>Q: </summary>
   
   A: 
-</details> 
--->
+</details> -->
 
 <details>
 <summary>Q: Can I clone a Github repository and work with that code?</summary>
@@ -124,11 +123,19 @@ This section will be dynamically updated in the following weeks/months as I rece
   A: Your code should start from scratch and can integrate **portions** of existing repositories, for example the model architecture code, but cloning an entire Github repository would heavily penalize your assignment grade (and not make you learn as much).
 </details>
 
+
 <details>
 <summary>Q: Should I build multiple models for a comparison in the end?</summary>
   
   A: You are expected to experiment with variations (not many, 1 or 2 are enough) of your model and compare how they change the model performance as part of point 3 of the evaluation score breakdown "Experimental procedure".
 </details>
+
+
+<details>
+<summary>Q: In the provided <code>eval_search_prw</code> function, should parameter <code>ignore_cam_id</code> be set to <code>True</code> (as default) or <code>False</code>? </summary>
+  
+  A: The parameter `ignore_cam_id` makes the task harder if set to `False` by excluding gallery images captured by the same camera of the query. It should be set to `True` as the other works in the literature use this default setting (e.g. see [COAT code](https://github.com/Kitware/COAT/blob/369d93418716a4a28a96203ebd012020877db550/engine.py#L167)), in order to have a fair comparison.
+</details> 
 
 <!-- <p align="center">
   <img src="assets/empty.jpeg" />
@@ -140,6 +147,7 @@ Note per il prossimo anno:
 1. indica chiaramente che vuoi almeno 3 qualitativi.
 2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
 -->
+
 
 
 
