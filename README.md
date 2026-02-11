@@ -137,6 +137,13 @@ This section will be dynamically updated in the following weeks/months as I rece
   A: The parameter `ignore_cam_id` makes the task harder if set to `False` by excluding gallery images captured by the same camera of the query. It should be set to `True` as the other works in the literature use this default setting (e.g. see [COAT code](https://github.com/Kitware/COAT/blob/369d93418716a4a28a96203ebd012020877db550/engine.py#L167)), in order to have a fair comparison.
 </details> 
 
+
+<details>
+<summary>Q: Should the evaluation be performed using only the 2057 query images present in folder query_box or should we consider as queries all the people extracted from the detector to which the model assigns an identity?</summary>
+  
+  A: The model should be evaluated using as queries the bounding boxes listed in file query_info.txt, which refer to the corresponding images in folder query_box.
+</details> 
+
 <!-- <p align="center">
   <img src="assets/empty.jpeg" />
 
@@ -147,6 +154,7 @@ Note per il prossimo anno:
 1. indica chiaramente che vuoi almeno 3 qualitativi.
 2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
 -->
+
 
 
 
