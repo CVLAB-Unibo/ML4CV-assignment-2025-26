@@ -145,6 +145,21 @@ This section will be dynamically updated in the following weeks/months as I rece
   A: The model should be evaluated using as queries the bounding boxes listed in file query_info.txt, which refer to the corresponding images in folder query_box.
 </details> 
 
+
+<details>
+<summary>Q: Some identities appear in both the training and test splits, but the assignment requires that "Test set images and identities should remain unseen during training". How should we handle this?</summary>
+  
+  A: The dataset's README states: *In detail, "frame_test.mat" and "frame_train.mat" specify the train/test frames, and "ID_test.mat" and "ID_train.mat" specify the train/test IDs. Note that a small portion of IDs used in training may appear in the testing frames, but will not appear in the testing IDs.*
+  The testing IDs are those used in the queries (query_box folder and query_info.txt) so there is no overlap in the Re-ID task. It's therefore not necessary to handle this in any particular way.
+</details> 
+
+
+<details>
+<summary>Q: There are a few discrepancies between the assignment table and the numbers extracted from the dataset. Is this normal?</summary>
+  
+  A: The table is the one reported in the PRW paper, the dataset is the one published by the authors. Discrepancies arise because the work of people we rely on is not always perfect, and I wanted to give you the informations as they are reported online to get you used to handle these discrepancies by yourself, without requiring any kind of supervision.
+</details> 
+
 <!-- <p align="center">
   <img src="assets/empty.jpeg" />
 
@@ -155,6 +170,7 @@ Note per il prossimo anno:
 1. indica chiaramente che vuoi almeno 3 qualitativi.
 2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
 -->
+
 
 
 
