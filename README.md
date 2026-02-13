@@ -88,7 +88,8 @@ My evaluation of your work will be based on:
 > [!IMPORTANT]
 > In order to compute metrics in a way that is consistent with the literature and uniform among you, make sure to adapt the ``eval_search_prw`` function I have provided you ([here](https://github.com/CVLAB-Unibo/ML4CV-assignment-2025-26/blob/main/eval_function.py)) to work with your code. Intuition for the *mAP in ranking tasks* can be found [here](https://www.evidentlyai.com/ranking-metrics/mean-average-precision-map).
  
-3. **Experimental procedure**. Do not just show me the results of your final model; instead, perform ablation studies that (empirically) prove how your *main* choices positively affect the model performance. Any result you show must be critically discussed and/or interpreted and have an actual impact on your investigation.
+3. **Experimental procedure**. Do not just show me the results of your final model; instead, perform ablation studies that (empirically) prove how your *main* choices positively affect the model performance. <ins>In a practical sense</ins>: you are expected to experiment with variations (not many, 1 or 2 are enough) of your model and compare how they change the model performance. Examples of valid variations are: architecture modification, change of pretrained model backbone, change of loss function, etc.; an hyperparameter change (e.g. learning rate) is not a valid variation of your model.  
+Any result you show must be critically discussed and/or interpreted and have an actual impact on your investigation.
 4. **Clarity of exposition and code readability**. `main.ipynb` must be a combination of textual and code cells whose content is intertwined: do not write text cells referencing code that I cannot see anywhere (not even in external scripts) nor write non-trivial code cells with no textual explanation preceding them. External scripts, if present, should be well-structured (classes, functions, etc.), well-written (mnemonic variable names, no random commented lines, etc.) and well-documented. Plots and tables are always welcomed.
 
 Keep in mind that this is **not** a challenge: you will **not** be ranked based on the metric scores you achieve. Therefore, points 3 and 4 will be as impactful on the final grade as points 1 and 2.
@@ -154,6 +155,7 @@ Note per il prossimo anno:
 1. indica chiaramente che vuoi almeno 3 qualitativi.
 2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
 -->
+
 
 
 
