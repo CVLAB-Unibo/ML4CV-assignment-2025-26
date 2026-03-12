@@ -155,9 +155,9 @@ This section will be dynamically updated in the following weeks/months as I rece
 
 
 <details>
-<summary>Q: There are a few discrepancies between the assignment table and the numbers extracted from the dataset. Is this normal?</summary>
+<summary>Q: I cannot find the validation set and there are a few discrepancies between the assignment table and the numbers extracted from the dataset. Is this normal?</summary>
   
-  A: The table is the one reported in the PRW paper, the dataset is the one published by the authors. Discrepancies arise because the work of people we rely on is not always perfect, and I wanted to give you the informations as they are reported online to get you used to handle these discrepancies by yourself, without requiring any kind of supervision.
+  A: The table is the one reported in the PRW paper, the dataset is the one published by the authors. Discrepancies arise because the work of people we rely on is not always perfect, and I wanted to give you the informations as they are reported online to get you used to handle these discrepancies by yourself, without requiring any kind of supervision. The missing validation set is another example of such discrepancies.
 </details> 
 
 <!-- <p align="center">
@@ -170,6 +170,7 @@ Note per il prossimo anno:
 1. indica chiaramente che vuoi almeno 3 qualitativi.
 2. in experimental procedure, dai una lista di esempi di cosa qualifica come modifica sufficiente per essere una comparison/ablation (e.g. batchsize no, etc.) e che vuoi una tabella con i valori che confrontano le 2+ versioni. Chiarisci che una variation è sufficiente per avere il massimo, ma possono farne di più.
 -->
+
 
 
 
